@@ -15,7 +15,7 @@ class Singup extends React.Component {
                 </section>
                 <section className='singup-registration_space'>
                     <div className='registration_space-box_creteAccount'>
-                        <h2 className='box_createAccount-Title'>Create Account</h2>
+                        <h2 className='box_createAccount-Title'>Criar Conta</h2>
                         <form className='box_createAccount-box_infoRegistration'>
                             <label>nome completo</label>
                             <input placeholder='insira seu nome completo' type='text' required></input>
@@ -25,9 +25,9 @@ class Singup extends React.Component {
                             <input placeholder='insira sua senha' type='password' required></input>  
                             <label>e-mail</label>
                             <input placeholder='insira seu email' type='email' required></input>   
-                            <button className='box_infoReegistration-buttonSend'>Sing up</button>
+                            <button className='box_infoReegistration-buttonSend'>Criar</button>
                         </form>
-                        <p className='box_createAccount-backOption'>Already have an account? <a href='#'>Log in</a></p>
+                        <p className='box_createAccount-backOption'>Já tem uma conta? <a href='#'>Conecte-se</a></p>
                     </div>
                 </section>
             </div>
