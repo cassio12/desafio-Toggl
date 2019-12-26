@@ -1,0 +1,89 @@
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbf8f3;
+}
+
+/* ----------------- Tela Sing Up ----------------- */
+.container-singup {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  /* border-radius: 10px; */
+}
+.singup-apresentation {
+  width: 50%;
+  /* height: 100%; */
+  background-color: #51efc1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.aprasentation-box_img {
+  width: 30%;
+}
+.box_img-img_cronometro {
+  width: 100%;
+}
+.singup-registration_space {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.registration_space-box_creteAccount {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; 
+}
+.box_createAccount-Title {
+  color: #51efc1;
+}
+.box_createAccount-box_infoRegistration {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-top: 2rem;
+  color: #51efc1;
+}
+input {
+  border-bottom-color: #51efc1;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  outline: none;
+  margin-top: 1rem;
+  opacity: 0.5;
+}
+.box_createAccount-backOption {
+  opacity: .5;
+}
+a {
+  text-decoration: none;
+  color: #51efc1;
+}
+.box_infoReegistration-buttonSend {
+  width: 60%;
+  height: 40px;
+  align-self: center;
+  border-radius: 10px;
+  border-width: 0;
+  background-color: #51efc1;
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
