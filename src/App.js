@@ -102,8 +102,8 @@ class App extends React.Component {
   render(){
     return (
       <main className="App">
-          {/* {this.state.telaRender} */}
-          <Cronometro/>
+          {this.state.telaRender}
+          {/* <Cronometro/> */}
           {/* <Login logarFunction={this.efetuandoLogin} linkSingup={this.criarConta}/> */}
           {/* <Singup mostraSenh={this.seePassword} typeInput={this.savePassword} functionSaveUser={this.diferentPassword} linkLogin={this.telaSingup}/> */}
       </main>
