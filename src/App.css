@@ -4,20 +4,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #dbf8f3;
+  /* background-color: #dbf8f3; */
 }
 
 /* ----------------- Tela Sing Up ----------------- */
 .container-singup {
-  width: 80%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbf8f3;
   /* border-radius: 10px; */
 }
 .singup-apresentation {
-  width: 50%;
-  /* height: 100%; */
+  width: 40%;
+  height: 90%;
   background-color: #51efc1;
   display: flex;
   align-items: center;
@@ -32,7 +35,8 @@
   width: 100%;
 }
 .singup-registration_space {
-  width: 50%;
+  width: 40%;
+  height: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -49,6 +53,7 @@
   flex-direction: column; 
 }
 .box_createAccount-Title {
+  margin: 0;
   color: #51efc1;
 }
 .box_createAccount-box_infoRegistration {
@@ -56,11 +61,11 @@
   display: flex;
   flex-direction: column;
 }
-label {
-  margin-top: 2rem;
+.box_infoRegistration-subtutle {
+  margin-top: 1rem;
   color: #51efc1;
 }
-input {
+.box_infoRegistration-textArea {
   border-bottom-color: #51efc1;
   border-left: none;
   border-right: none;
@@ -69,10 +74,13 @@ input {
   margin-top: 1rem;
   opacity: 0.5;
 }
+.seePassword {
+  margin:0
+}
 .box_createAccount-backOption {
   opacity: .5;
 }
-a {
+.linkSingup {
   text-decoration: none;
   color: #51efc1;
 }
@@ -86,4 +94,80 @@ a {
   color: #ffffff;
   font-size: 1.2rem;
   margin-top: 2rem;
+  outline: none;
+}
+
+/* ----------------- Tela Login ----------------- */
+.container-login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  background-image: url('./img/time.jpg');
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: #dbf8f3;
+}
+.container-login::after {
+  /* background-image: url('./img/time.jpg');
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: #dbf8f3; */
+  opacity: .5;
+} 
+.login-spaceForm {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #51efc1;
+  /* align-self: flex-end; */
+}
+
+.loginArea-boxEmail {
+  display: flex;
+  flex-direction: column;
+ 
+}
+.boxEmail-subtitle {
+  color: #ffffff;
+}
+.boxEmail-txtArea {
+  background-color: #51efc1;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  outline: none;
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+  color:grey;
+  /* opacity: 0.5;  */
+}
+.loginArea-boxLogin_itens {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* color: #ffffff; */
+}
+.boxLogin_itens-legendItem {
+  margin-right: 2rem;
+  color: #ffffff;
+}
+.boxLogin_itens-linkItem {
+  text-decoration: none;
+  color: #ffffff;
+}
+.loginArea-buttonLogin {
+  width: 60%;
+  height: 40px;
+  align-self: center;
+  border-radius: 10px;
+  border-width: 0;
+  background-color: #ffffff;
+  color: #51efc1;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  outline: none;
 }
