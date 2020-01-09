@@ -4,7 +4,10 @@ import '../App.css'
 
 
 class Singup extends React.Component {
-   
+   constructor(props){
+       super(props);
+       
+   };
 
     render(){
         return(
@@ -32,11 +35,12 @@ class Singup extends React.Component {
                             <button className='box_infoReegistration-buttonSend'>Criar</button>
                         </form>
                         <p className='box_createAccount-backOption'>Já tem uma conta? <a onClick={this.props.linkLogin} className='linkSingup' href='#'>Conecte-se</a></p>
+                        <p className="erroMensage">{this.props.error}</p>
                     </div>
                 </section>
             </div>
-        )
-    }
-}
+        );
+    };
+};
 
 export default Singup;

@@ -24,6 +24,7 @@ class Login extends React.Component {
                         </div>
                         <button className='loginArea-buttonLogin'>logar</button>
                     </form>
+                    <p className="erroMensage">{this.props.error1}</p>
                 </section>
             </div>
         )
