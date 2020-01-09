@@ -10,26 +10,26 @@ class Cronometro extends React.Component {
         this.state = {
             term: '',
             items: []
-        }
-    }
+        };
+    };
 
     onChange = (event) => {
         this.setState({
             term: event.target.value
         });
-    }
+    };
 
     onSubmit = (event) => {
-        event.preventDefault()
+        event.preventDefault();
         this.setState({
           term: '',
           items: [...this.state.items, this.state.term]
         });
-    }
+    };
 
     render(){
         return (
-            <div className="">
+            <div className="containerCronometro">
                 <form className="" onSubmit={this.onSubmit}>
                     <input value={this.state.term} onChange={this.onChange} />
                     <button>Submit</button>
@@ -37,8 +37,8 @@ class Cronometro extends React.Component {
                 <List items={this.state.items}/>
             </div>
         );
-    }
-  }
+    };
+};
   
-  export default Cronometro;
+export default Cronometro;
   

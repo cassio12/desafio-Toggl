@@ -84,6 +84,9 @@
   text-decoration: none;
   color: #51efc1;
 }
+.erroMensage {
+  color: red
+}
 .box_infoReegistration-buttonSend {
   width: 60%;
   height: 40px;
@@ -122,6 +125,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   background-color: #51efc1;
   /* align-self: flex-end; */
 }
@@ -170,4 +174,36 @@
   font-size: 1.2rem;
   margin-top: 2rem;
   outline: none;
+}
+
+/* ----------------- Tela Cronometro ----------------- */
+.containerCronometro {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5rem;
+  background-color: #51efc1;
+}
+.box-ul {
+  width: 50%;
+  display: flex;
+  flex-flow: row wrap;
+  /* justify-content: space-between; */
+}
+.containerCronometro-itemlist {
+  list-style: none;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 5px;
+  background-color: grey;
+}
+.boxButtons {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.button {
+  margin: 0 6px 0 6px;
 }
